@@ -1,0 +1,60 @@
+.game-board-2players {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#1f2b22;
+  
+  }
+  .game-board-2players button{
+    width: auto;
+  }
+
+.infoBoard td.arrow {
+    visibility: hidden;
+    color: lightsalmon;
+    border: none;
+}
+.infoBoard td.arrow.active {
+    visibility: unset;
+}
+.infoBoard table {
+    border-collapse: collapse;
+    font-size: 24px;
+    color: whitesmoke;
+}
+/* WINNER */
+.infoBoard tr.winner{
+    color: greenyellow;
+}
+/* LOSER */
+.infoBoard tr.loser{
+    color: grey;
+}
+/* DEUCE */
+.infoBoard tr.deuce{
+    color: teal;
+}
+
+.form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    font-size: 15px;
+    color: grey;
+ }
+ .form input, button{
+     padding: 10px;
+     margin: 5px;
+ }
+ 
+ .form span {
+     margin: 5px;
+ }
+ .form span.error {
+     color: red;
+     height: 39px;
+     font-size: 14px;
+ }
